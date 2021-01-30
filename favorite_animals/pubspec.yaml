@@ -1,0 +1,25 @@
+name: dark_mode
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  animal_names: any
+  flutter:
+    sdk: flutter
+  chest:
+    path: ../../chest
+  chest_flutter:
+    path: ../../chest_flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

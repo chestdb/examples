@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:chest_flutter/chest_flutter.dart';
 
-final isDark = Chest<bool>('isDark', ifNew: () => false);
+final isDark = Chest('isDark', ifNew: () => false);
 
 void main() async {
   await initializeChest();

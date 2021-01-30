@@ -1,9 +1,15 @@
 import 'package:chest/chest.dart';
+import 'package:chest_flutter/chest_flutter.dart';
 import 'package:flutter/material.dart';
 
 final counter = Chest('counter', ifNew: () => 0);
 
-void main() {
+void main() async {
+  await initializeChest();
+  tape.register({
+    ...tapers.forDartCore,
+  });
+  await counter.open();
   runApp(TapCounterApp());
 }
 

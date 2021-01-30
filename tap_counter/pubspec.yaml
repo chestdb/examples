@@ -11,6 +11,8 @@ dependencies:
     sdk: flutter
   chest:
     path: ../../chest
+  chest_flutter:
+    path: ../../chest_flutter
 
 dev_dependencies:
   flutter_test:
